@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abubokar Electric & Tech| Official Store</title>
+    
+    <style>
+        /* CSS for Professional Look */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* হেডার স্ক্রোলের সাথে উপরে উঠে যাওয়ার জন্য position: relative করা হয়েছে */
+        header {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            position: relative; /* এখানে পরিবর্তন করা হয়েছে */
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        nav a {
+            color: #ddd;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #ff4757;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 850px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        #home {
+            text-align: center;
+            padding: 60px 20px;
+            background: #fff;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        #home h2 {
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        /* নতুন যুক্ত করা টেক্সটের স্টাইল */
+        .demo-notice {
+            color: #777;
+            font-weight: normal;
+            line-height: 1.6;
+            margin-top: 15px;
+        }
+
+        .hero-img {
+            max-width: 100%;
+            height: auto;
+            width: 400px;
+            border-radius: 10px;
+            margin: 20px 0;
+            transition: 0.3s;
+        }
+
+        .btn-buy {
+            background: #ff4757;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-top: 15px;
+        }
+
+        .btn-buy:hover {
+            background: #ff6b81;
+            box-shadow: 0 5px 15px rgba(255, 71, 87, 0.4);
+        }
+
+        #features, #pricing, #order {
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        /* Table & Product Images Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            text-align: left;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+
+        th {
+            background: #f1f2f6;
+            font-weight: bold;
+        }
+
+        .thumb-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Form Styling */
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: #2ed573;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background: #7bed9f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Abubokar Electric & Tech</h1>
+        
+        <!-- target="_blank" ব্যবহারের ফলে প্রতিটি লিংকে ক্লিক করলে নতুন ট্যাবে/পেজে ওপেন হবে -->
+        <nav>
+            <a href="#home" target="_blank">হোম</a>
+            <a href="#features" target="_blank">ফিচার</a>
+            <a href="#pricing" target="_blank">প্রোডাক্ট ও দাম</a>
+            <a href="#order" target="_blank">অর্ডার করুন</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <!-- Hero Section -->
+        <section id="home">
+            <!-- আপনার দেওয়া নতুন হ্যালো হেডিংস এখানে যুক্ত করা হয়েছে -->
+            <h2>কিনুন আপনার প্রিয় গ্যাজেট</h2>
+            <h3 class="demo-notice">This is demo website <br> Make only educational purpose <br> Developed by vibe coder</h3>
+            
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+
+            <h2>প্রিমিয়াম গ্যাজেটের মেগা কালেকশন</h2>
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Tech Hub" class="hero-img">
+            <p>আপনার দৈনিক লাইফস্টাইলকে আরও সহজ করতে আমরা নিয়ে এসেছি সেরা সব ইলেকট্রনিক গ্যাজেটের এক বিশাল সম্ভার।</p>
+            <button class="btn-buy" onclick="scrollToOrder()">এখনই কিনুন</button>
+        </section>
+
+        <!-- Features -->
+        <section id="features">
+            <h3>কেন আমাদের প্রোডাক্ট সেরা?</h3>
+            <ul>
+                <li><strong>লেটেস্ট টেকনোলজি:</strong> প্রতিটি প্রোডাক্ট ২০২৬ সালের আপগ্রেডেড ভার্সন।</li>
+                <li><strong>১০০% অরিজিনাল:</strong> কোয়ালিটি নিয়ে কোনো আপস করা হয় না।</li>
+                <li><strong>সহজ রিটার্ন পলিসি:</strong> প্রোডাক্টে সমস্যা থাকলে দ্রুত পরিবর্তনের সুবিধা।</li>
+                <li><strong>ফাস্ট ডেলিভারি:</strong> অর্ডার করার পর খুব দ্রুত আপনার হাতে পৌঁছে যাবে।</li>
+            </ul>
+        </section>
+
+        <!-- Pricing & Products List with Images -->
+        <section id="pricing">
+            <h3>আমাদের স্টক ও মূল্য তালিকা</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ছবি</th>
+                        <th>প্রোডাক্টের নাম</th>
+                        <th>দাম (টাকা)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=150&q=80" alt="Headphone" class="thumb-img"></td>
+                        <td>১. প্রিমিয়াম ব্লুটুথ হেডফোন</td>
+                        <td>৳ ২,৫০০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=150&q=80" alt="Smartwatch" class="thumb-img"></td>
+                        <td>২. অ্যাকティブ স্মার্টওয়াচ প্রো</td>
+                        <td>৳ ১,৮০০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=150&q=80" alt="Speaker" class="thumb-img"></td>
+                        <td>৩. ওয়্যারলেস পোর্টেবল স্পিকার</td>
+                        <td>৳ ১,২০০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1609592424109-dd9892f1b177?auto=format&fit=crop&w=150&q=80" alt="Power Bank" class="thumb-img"></td>
+                        <td>৪. ফাস্ট চার্জিং পাওয়ার ব্যাংক</td>
+                        <td>৳ ১,৫০০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=150&q=80" alt="Gaming Mouse" class="thumb-img"></td>
+                        <td>৫. গেমিং আরজিবি লাইট মাউস</td>
+                        <td>৳ ৮৫০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=150&q=80" alt="Keyboard" class="thumb-img"></td>
+                        <td>৬. মেকানিক্যাল আরজিবি কিবোর্ড</td>
+                        <td>৳ ২,২২০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=150&q=80" alt="Earbuds" class="thumb-img"></td>
+                        <td>৭. ট্রু ওয়্যারলেস ইয়ারবাডস (TWS)</td>
+                        <td>৳ ১,৩৫০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1534224039826-c7a0dea0e66a?auto=format&fit=crop&w=150&q=80" alt="Desk Lamp" class="thumb-img"></td>
+                        <td>৮. স্মার্ট আরজিবি ডেস্ক ল্যাম্প</td>
+                        <td>৳ ৯৫০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1622445262465-2481c4574875?auto=format&fit=crop&w=150&q=80" alt="Wireless Charger" class="thumb-img"></td>
+                        <td>৯. ৩-ইন-১ ওয়্যারলেস চার্জিং ডক</td>
+                        <td>৳ ১,৬৫০</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=150&q=80" alt="Action Camera" class="thumb-img"></td>
+                        <td>১০. ৪-কে আল্ট্রর এইচডি অ্যাকশন ক্যামেরা</td>
+                        <td>৳ ৪,৫০০</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Order Form (Connected to Your Email) -->
+        <section id="order">
+            <h3>আপনার অর্ডার প্লেস করুন</h3>
+            <p>নিচের ফর্মটি সঠিকভাবে পূরণ করুন। আমাদের প্রতিনিধি আপনার সাথে যোগাযোগ করে ডেলিভারি কনফার্ম করবে।</p>
+            
+            <form action="https://formspree.io/f/mlgvjdkk" method="POST">
+                <label>আপনার সম্পূর্ণ নাম:</label>
+                <input type="text" name="Full Name" placeholder="আপনার নাম লিখুন" required>
+
+                <label>আপনার ইমেইল:</label>
+                <input type="email" name="Email Address" placeholder="আপনার ইমেইল লিখুন" required>
+
+                <label>প্রোডাক্ট সিলেক্ট করুন:</label>
+                <select name="Product Selection" required>
+                    <option value="" disabled selected>-- একটি প্রোডাক্ট বেছে নিন --</option>
+                    <option value="Premium Headphone (2500 TK)">প্রিমিয়াম ব্লুটুথ হেডফোন (৳ ২,৫০০)</option>
+                    <option value="Smartwatch Pro (1800 TK)">অ্যাকティブ স্মার্টওয়াচ პრო (৳ ১,৮০০)</option>
+                    <option value="Wireless Speaker (1200 TK)">ওয়্যারলেস পোর্টেবল স্পিকার (৳ ১,২০০)</option>
+                    <option value="Power Bank (1500 TK)">ফাস্ট চার্জিং পাওয়ার ব্যাংক (৳ ১,৫০০)</option>
+                    <option value="Gaming Mouse (850 TK)">গেমিং আরজিবি লাইট মাউস (৳ ৮৫০)</option>
+                    <option value="Mechanical Keyboard (2200 TK)">মেকানিক্যাল আরজিবি কিবোর্ড (৳ ২,২০০)</option>
+                    <option value="TWS Earbuds (1350 TK)">ট্রু ওয়্যারলেস ইয়ারবাডস - TWS (৳ ১,৩৫০)</option>
+                    <option value="RGB Desk Lamp (950 TK)">স্মার্ট আরজিবি ডেস্ক ল্যাম্প (৳ ৯৫০)</option>
+                    <option value="Wireless Charger (1650 TK)">৩-ইন-১ ওয়্যারলেস চার্জিং ডক (৳ ১,৬৫০)</option>
+                    <option value="Action Camera (4500 TK)">৪-কে আল্ট্রা এইচডি অ্যাকশন ক্যামেরা (৳ ৪,৫০০)</option>
+                </select>
+
+                <label>ডেলিভারির সম্পূর্ণ ঠিকানা:</label>
+                <input type="text" name="Delivery Address" placeholder="গ্রাম/মহল্লা, থানা, জেলা" required>
+                
+                <label>মোবাইল নম্বর (অর্ডার কনফার্মেশনের জন্য):</label>
+                <input type="text" name="Phone Number" placeholder="আপনার সচল মোবাইল নম্বর দিন" required>
+
+                <button type="submit" class="submit-btn">অর্ডার কনফার্ম করুন</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; ২০২৬ Abubokar Electric & Tech </p>
+    </footer>
+
+    <script>
+        // Smooth Scroll Function
+        function scrollToOrder() {
+            document.getElementById('order').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
